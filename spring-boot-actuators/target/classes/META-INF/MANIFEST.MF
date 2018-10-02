@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-boot-actuators
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: mohit_sh
+Implementation-Vendor-Id: com.nayasa
+Build-Jdk: 1.8.0_31
+Implementation-URL: http://maven.apache.org
+Created-By: Maven Integration for Eclipse
+

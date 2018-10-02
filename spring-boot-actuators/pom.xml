@@ -8,23 +8,34 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   
+  
   <groupId>com.nayasa</groupId>
   <artifactId>spring-boot-actuators</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>spring-boot-actuators</name>
   <url>http://maven.apache.org</url>
+  <description>Simple project of Spring Actuator with examples</description>
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
+  
+   <dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-actuator</artifactId>
+	</dependency>
+	
+	<dependency>
+   		<groupId>org.springframework.boot</groupId>
+   		<artifactId>spring-boot-starter-security</artifactId>
+	</dependency>
+
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-security</artifactId>
+	</dependency>
   </dependencies>
   
 </project>
